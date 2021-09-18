@@ -26,7 +26,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #section {
   width: 100%;
   height: 100vh;
-  background: url("../img/carol-magalhaes-bg.jpg") center center;
   background-size: cover;
   position: relative;
   z-index: 9;
@@ -72,6 +71,18 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  #section {
+    background: url("../img/mobile.jpg") left top;
+  }
+}
+
+@media (min-width: 768px) {
+  #section {
+    background: url("../img/desktop.jpg") center top;
   }
 }
 
