@@ -77,12 +77,17 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 @media (max-width: 768px) {
   #section {
     background: url("../img/mobile.jpg") left top;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
   }
 }
 
 @media (min-width: 768px) {
   #section {
-    background: url("../img/desktop.jpg") center top;
+    background: url("../img/desktop.jpg") center center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
